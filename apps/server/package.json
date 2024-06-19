@@ -8,11 +8,15 @@
   },
   "private": true,
   "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
     "tsc-watch": "^6.2.0",
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@prisma/client": "^5.15.0",
     "ioredis": "^5.4.1",
+    "kafkajs": "^2.2.4",
     "socket.io": "^4.7.5"
   }
 }
